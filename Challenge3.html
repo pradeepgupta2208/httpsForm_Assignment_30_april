@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label id="name-label" for="name">Name</label><br>
+        <input type="text" name="name" id="name"required placeholder="Enter Your Name"><br><br>
+
+        <label id="email-label"for="email_id">Email</label><br>
+        <input type="email" name="email_id" id="email" required placeholder="Test@gmail.com"><br><br>
+
+        <label id="number-label" for="number">RollNO</label><br>
+        <input type="number" name="number"id="number"  placeholder="RollNO" min="0" max="100"><br><br>
+
+
+        <label for="drop-down">How do you rate our course</label><br>
+        <select name="drop-down" id="drop-down">
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Fair">Fair</option>
+            <option value="Poor">Poor</option>
+        </select><br><br>
+
+
+        <label >Your Favorate Toipc in HTML</label><br>
+        <input type="checkbox" name="Topic1" value="StrutreElement">StrutreElement<br>
+        <input type="checkbox" name="Topic2" value="LinksandList">Link And List<br>
+        <input type="checkbox" name="Topic3" value="media">HTML Media <br>
+        <input type="checkbox" name="Topic4" value="tables">HTML Tabel<br>
+        <input type="checkbox" name="Topic5" value="groupelement">Grouping Element<br>
+        <input type="checkbox" name="Topic4" value="forms">Forms<br><br>
+
+        <label>Do You Like The HTML Course?</label><br>
+        <input type="radio" name="course" value="yes">Yes
+        <input type="radio" name="course" value="no">No <br><br>
+
+        <label>Few words about course</label> <br>
+        <textarea name="Description" id="Description" cols="50" rows="10"></textarea> <br><br>
+        <button type="button" onclick="alert('Validtaing')">Submit</button>
+        
+
+
+
+    </form>
+</body>
+</html>
